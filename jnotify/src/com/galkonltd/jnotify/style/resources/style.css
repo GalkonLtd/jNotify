@@ -1,0 +1,52 @@
+/* Default notification style */
+notification.default {
+	background-color: #939393;
+	border-color: #9D9D9D;
+	border-radius: 7px;
+	font-color: #1b1b1b;
+	font-family: "Arial";
+	font-weight: bold;/*bold or none*/
+	font-size: 12px;
+}
+
+/* Info notification style overrides */
+notification.info {
+	background-color: #3497D9;
+	border-color: #35A5EC;
+	icon: "/com/galkonltd/jnotify/style/resources/info.png";
+}
+
+/* Success notification style overrides */
+notification.success {
+	background-color: #54BB3C;
+	border-color: #5AD741;
+	icon: "/com/galkonltd/jnotify/style/resources/success.png";
+}
+
+/* Warning notification style overrides */
+notification.warning {
+	background-color: #F2B92F;
+	border-color: #FFC63C;
+	icon: "/com/galkonltd/jnotify/style/resources/warning.png";
+}
+
+/* Error notification style overrides */
+notification.error {
+	background-color: #F22F2F;
+	border-color: #FF4A45;
+	icon: "/com/galkonltd/jnotify/style/resources/error.png";
+}
+
+/* Message notification style overrides */
+notification.message {
+	background-color: #939393;
+	border-color: #A6A6A6;
+	icon: "/com/galkonltd/jnotify/style/resources/message.png";
+}
+
+/* Link notification style overrides */
+notification.link {
+	background-color: #A466CD;
+	border-color: #BC6BE6;
+	icon: "/com/galkonltd/jnotify/style/resources/link.png";
+}
